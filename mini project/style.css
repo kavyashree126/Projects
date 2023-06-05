@@ -1,0 +1,76 @@
+body
+{
+    margin: 60px;
+    margin-right: 200px;
+}
+
+
+.footer
+{
+    background-color: rgb(28, 23, 23);
+    height: 170px;
+}
+.box
+{
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    display: inline-flex;
+    margin-right: 220px;
+    margin-left: 90px;
+    margin-top: 18px;
+}
+form
+{
+    background-color: rgb(214, 173, 78);
+    height: 300px;
+}
+h3
+{
+    margin-left: 80px;
+    padding-top: 30px;
+}
+p
+{
+margin-left: 80px;
+
+}
+h2
+{
+    margin-left: 80px;
+}
+h4
+{
+    margin-left: 80px;
+}
+.button
+{
+    font-size: 20px;
+    background-color: rgb(44, 41, 41);
+    color: white;
+    margin-left: 10px;
+    text-underline-offset: -20px;
+    border-color: black;
+    height: 200px;
+}
+input
+{
+    height: 35px;
+    margin-left: 80px;
+    width: 200px;
+    border-color: black;
+    border-style: solid;
+}
+#first_p
+{
+    color: white;
+}
+img
+{
+    height: 200px;
+    width: 180px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -50px;
+    background-color: rgb(214, 173, 78);
+}
