@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Password Generator JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Password Generator</h2>
+      <div class="wrapper">
+        <div class="input-box">
+          <input type="text" disabled>
+          <span class="material-symbols-rounded"><img src="1.png"></span>
+        </div><br>
+        <div class="box">
+        <div class="pass-length">
+          <div class="details">
+            <label class="title">Character Length</label>
+            <span></span>
+          </div> <br>
+          <input type="range" min="1" max="30" value="15" step="1">
+        </div>
+        <div class="pass-settings">
+          <ul class="options">
+            <li class="option">
+              <input type="checkbox" id="lowercase" checked>
+              <label for="lowercase">Include Lowercase Letters</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="uppercase">
+              <label for="uppercase">Include Uppercase Letters</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="numbers">
+              <label for="numbers">Include Numbers</label>
+            </li>
+            <li class="option">
+              <input type="checkbox" id="symbols">
+              <label for="symbols">Include Symbols</label>
+            </li>
+          </ul>
+        </div>
+        <div class="pass-indicator">
+               <span></span>
+               </div>
+        <button class="generate-btn">Generate-></button>
+      </div>
+    </div>
+    </div>
+    
+  </body>
+</html>
